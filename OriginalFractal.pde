@@ -6,9 +6,7 @@ public void setup() {
 public void draw() {
   Rose(275,275,500);
 }
-public void mousePressed() {
 
-}
 public void Rose(int x, int y, float length) {
   if (length < 10)  {
     ellipse(x,y,length,length);
