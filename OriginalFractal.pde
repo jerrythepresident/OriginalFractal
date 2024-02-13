@@ -8,9 +8,7 @@ public void draw() {
 }
 
 public void mouseClicked() {
-  if (value == 0) {
     fill(255,(int)(Math.random()*90),(int)(Math.random()*90));
-  } 
 }
 
 public void Rose(int x, int y, float length) {
