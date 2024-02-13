@@ -1,14 +1,14 @@
 public void setup() {
   size(550,550);
   background(0);
-  fill(255,(int)(Math.random()*90),(int)(Math.random()*90));
+  fill(255,(int)(Math.random()*80),(int)(Math.random()*80));
 }
 public void draw() {
   Rose(275,275,500);
 }
 
 public void mouseClicked() {
-    fill(255,(int)(Math.random()*90),(int)(Math.random()*90));
+    fill(255,(int)(Math.random()*80),(int)(Math.random()*80));
 }
 
 public void Rose(int x, int y, float length) {
